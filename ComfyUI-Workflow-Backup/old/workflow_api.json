@@ -1,0 +1,1756 @@
+{
+  "3": {
+    "inputs": {
+      "prompt": "(embedding:christphgrmmr-000400.safetensors)\nModel photoshoot for clothing retailer website of nice looking christphgrmmr with a clear background\nbeautiful, best quality, high definition, studio lighting, white background, gradient background (masterpiece), (extremely intricate), deviantart hd, artstation hd, detailed face, award-winning photography, margins, detailed face, intricate, high detail, sharp focus, dramatic, award winning matte cinematic lighting volumetrics dtx"
+    },
+    "class_type": "SeargePromptText"
+  },
+  "5": {
+    "inputs": {
+      "prompt": ""
+    },
+    "class_type": "SeargePromptText"
+  },
+  "6": {
+    "inputs": {
+      "prompt": ""
+    },
+    "class_type": "SeargePromptText"
+  },
+  "7": {
+    "inputs": {
+      "prompt": "clothing, (worst quality, low quality, illustration, 3d, 2d), ugly face, old face, long neck,"
+    },
+    "class_type": "SeargePromptText"
+  },
+  "8": {
+    "inputs": {
+      "prompt": ""
+    },
+    "class_type": "SeargePromptText"
+  },
+  "19": {
+    "inputs": {
+      "images": [
+        "363",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "40": {
+    "inputs": {
+      "pos_g": [
+        "153",
+        1
+      ],
+      "pos_l": [
+        "153",
+        2
+      ],
+      "pos_r": [
+        "153",
+        1
+      ],
+      "neg_g": [
+        "153",
+        4
+      ],
+      "neg_l": [
+        "153",
+        4
+      ],
+      "neg_r": [
+        "153",
+        4
+      ],
+      "base_width": [
+        "51",
+        0
+      ],
+      "base_height": [
+        "52",
+        0
+      ],
+      "crop_w": 0,
+      "crop_h": 0,
+      "target_width": [
+        "370",
+        2
+      ],
+      "target_height": [
+        "370",
+        3
+      ],
+      "pos_ascore": 6,
+      "neg_ascore": 2.5,
+      "refiner_width": [
+        "54",
+        0
+      ],
+      "refiner_height": [
+        "53",
+        0
+      ],
+      "base_clip": [
+        "353",
+        1
+      ],
+      "refiner_clip": [
+        "355",
+        1
+      ]
+    },
+    "class_type": "SeargeSDXLPromptEncoder"
+  },
+  "41": {
+    "inputs": {
+      "pos_g": [
+        "153",
+        3
+      ],
+      "pos_l": [
+        "153",
+        3
+      ],
+      "neg_g": [
+        "153",
+        5
+      ],
+      "neg_l": [
+        "153",
+        5
+      ],
+      "base_width": [
+        "51",
+        0
+      ],
+      "base_height": [
+        "52",
+        0
+      ],
+      "crop_w": 0,
+      "crop_h": 0,
+      "target_width": [
+        "370",
+        2
+      ],
+      "target_height": [
+        "370",
+        3
+      ],
+      "base_clip": [
+        "353",
+        1
+      ]
+    },
+    "class_type": "SeargeSDXLBasePromptEncoder"
+  },
+  "42": {
+    "inputs": {
+      "pos_r": [
+        "153",
+        3
+      ],
+      "neg_r": [
+        "153",
+        5
+      ],
+      "pos_ascore": 6,
+      "neg_ascore": 2.5,
+      "refiner_width": [
+        "54",
+        0
+      ],
+      "refiner_height": [
+        "53",
+        0
+      ],
+      "refiner_clip": [
+        "355",
+        1
+      ]
+    },
+    "class_type": "SeargeSDXLRefinerPromptEncoder"
+  },
+  "44": {
+    "inputs": {
+      "width": [
+        "359",
+        2
+      ],
+      "height": [
+        "359",
+        3
+      ],
+      "batch_size": [
+        "369",
+        6
+      ]
+    },
+    "class_type": "EmptyLatentImage"
+  },
+  "46": {
+    "inputs": {
+      "samples": [
+        "358",
+        0
+      ],
+      "vae": [
+        "351",
+        0
+      ]
+    },
+    "class_type": "VAEDecode"
+  },
+  "51": {
+    "inputs": {
+      "value": [
+        "370",
+        2
+      ],
+      "factor": [
+        "161",
+        1
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "52": {
+    "inputs": {
+      "value": [
+        "370",
+        3
+      ],
+      "factor": [
+        "161",
+        1
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "53": {
+    "inputs": {
+      "value": [
+        "370",
+        3
+      ],
+      "factor": [
+        "161",
+        2
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "54": {
+    "inputs": {
+      "value": [
+        "370",
+        2
+      ],
+      "factor": [
+        "161",
+        2
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "55": {
+    "inputs": {
+      "conditioning_1": [
+        "40",
+        0
+      ],
+      "conditioning_2": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ConditioningCombine"
+  },
+  "56": {
+    "inputs": {
+      "conditioning_1": [
+        "40",
+        1
+      ],
+      "conditioning_2": [
+        "41",
+        1
+      ]
+    },
+    "class_type": "ConditioningCombine"
+  },
+  "57": {
+    "inputs": {
+      "conditioning_1": [
+        "40",
+        2
+      ],
+      "conditioning_2": [
+        "42",
+        0
+      ]
+    },
+    "class_type": "ConditioningCombine"
+  },
+  "58": {
+    "inputs": {
+      "conditioning_1": [
+        "40",
+        3
+      ],
+      "conditioning_2": [
+        "42",
+        1
+      ]
+    },
+    "class_type": "ConditioningCombine"
+  },
+  "64": {
+    "inputs": {
+      "value": [
+        "365",
+        2
+      ],
+      "factor": [
+        "366",
+        7
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "65": {
+    "inputs": {
+      "value": [
+        "365",
+        3
+      ],
+      "factor": [
+        "366",
+        7
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "66": {
+    "inputs": {
+      "upscale_model": [
+        "352",
+        0
+      ],
+      "image": [
+        "363",
+        0
+      ]
+    },
+    "class_type": "ImageUpscaleWithModel"
+  },
+  "67": {
+    "inputs": {
+      "upscale_model": [
+        "356",
+        0
+      ],
+      "image": [
+        "363",
+        0
+      ]
+    },
+    "class_type": "ImageUpscaleWithModel"
+  },
+  "68": {
+    "inputs": {
+      "blend_factor": 0.5,
+      "blend_mode": "normal",
+      "image1": [
+        "66",
+        0
+      ],
+      "image2": [
+        "67",
+        0
+      ]
+    },
+    "class_type": "ImageBlend"
+  },
+  "69": {
+    "inputs": {
+      "upscale_method": "bicubic",
+      "width": [
+        "64",
+        0
+      ],
+      "height": [
+        "65",
+        0
+      ],
+      "crop": "center",
+      "image": [
+        "68",
+        0
+      ]
+    },
+    "class_type": "ImageScale"
+  },
+  "75": {
+    "inputs": {
+      "conditioning_to_strength": [
+        "145",
+        3
+      ],
+      "conditioning_to": [
+        "41",
+        0
+      ],
+      "conditioning_from": [
+        "40",
+        0
+      ]
+    },
+    "class_type": "ConditioningAverage "
+  },
+  "76": {
+    "inputs": {
+      "conditioning_to_strength": [
+        "145",
+        4
+      ],
+      "conditioning_to": [
+        "41",
+        1
+      ],
+      "conditioning_from": [
+        "40",
+        1
+      ]
+    },
+    "class_type": "ConditioningAverage "
+  },
+  "77": {
+    "inputs": {
+      "conditioning_to_strength": [
+        "145",
+        3
+      ],
+      "conditioning_to": [
+        "42",
+        0
+      ],
+      "conditioning_from": [
+        "40",
+        2
+      ]
+    },
+    "class_type": "ConditioningAverage "
+  },
+  "78": {
+    "inputs": {
+      "conditioning_to_strength": [
+        "145",
+        4
+      ],
+      "conditioning_to": [
+        "42",
+        1
+      ],
+      "conditioning_from": [
+        "40",
+        3
+      ]
+    },
+    "class_type": "ConditioningAverage "
+  },
+  "86": {
+    "inputs": {
+      "images": [
+        "363",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "87": {
+    "inputs": {
+      "images": [
+        "363",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "106": {
+    "inputs": {
+      "value": [
+        "362",
+        2
+      ],
+      "factor": [
+        "368",
+        3
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "107": {
+    "inputs": {
+      "value": [
+        "362",
+        3
+      ],
+      "factor": [
+        "368",
+        3
+      ],
+      "multiple_of": 8
+    },
+    "class_type": "SeargeIntegerScaler"
+  },
+  "131": {
+    "inputs": {
+      "inputs": [
+        "357",
+        0
+      ]
+    },
+    "class_type": "SeargeParameterProcessor"
+  },
+  "133": {
+    "inputs": {
+      "seed": 810080837182872,
+      "image_width": 768,
+      "image_height": 1344,
+      "steps": 40,
+      "cfg": 7,
+      "sampler_name": "dpmpp_2m_sde_gpu",
+      "scheduler": "karras",
+      "save_image": "enabled",
+      "save_directory": "output folder",
+      "inputs": [
+        "143",
+        0
+      ]
+    },
+    "class_type": "SeargeInput2"
+  },
+  "136": {
+    "inputs": {
+      "base_ratio": 0.7999999999999998,
+      "refiner_strength": 0.7499999999999998,
+      "refiner_intensity": "hard",
+      "precondition_steps": 0,
+      "batch_size": 4,
+      "upscale_resolution_factor": 2,
+      "save_upscaled_image": "enabled",
+      "denoise": 0.666,
+      "inputs": [
+        "133",
+        0
+      ]
+    },
+    "class_type": "SeargeInput3"
+  },
+  "143": {
+    "inputs": {
+      "base_conditioning_scale": 2,
+      "refiner_conditioning_scale": 2,
+      "style_prompt_power": 0.333,
+      "negative_style_power": 0.667,
+      "style_template": "none",
+      "inputs": [
+        "272",
+        0
+      ]
+    },
+    "class_type": "SeargeInput5"
+  },
+  "145": {
+    "inputs": {
+      "parameters": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput5"
+  },
+  "150": {
+    "inputs": {
+      "lora_strength": 0.1,
+      "operation_mode": "inpainting",
+      "prompt_style": "simple"
+    },
+    "class_type": "SeargeInput7"
+  },
+  "152": {
+    "inputs": {
+      "parameters": [
+        "131",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput7"
+  },
+  "153": {
+    "inputs": {
+      "parameters": [
+        "370",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput1"
+  },
+  "154": {
+    "inputs": {
+      "base_model": "Stable-diffusion/sd_xl_base_1.0.safetensors",
+      "refiner_model": "Stable-diffusion/sd_xl_refiner_1.0.safetensors",
+      "vae_model": "sdxl_vae.safetensors",
+      "main_upscale_model": "RealESRGAN_x2plus.pth",
+      "support_upscale_model": "RealESRGAN_x2plus.pth",
+      "lora_model": "sd_xl_offset_example-lora_1.0.safetensors"
+    },
+    "class_type": "SeargeInput4"
+  },
+  "161": {
+    "inputs": {
+      "parameters": [
+        "153",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput5"
+  },
+  "235": {
+    "inputs": {
+      "images": [
+        "46",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "236": {
+    "inputs": {
+      "images": [
+        "363",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "243": {
+    "inputs": {
+      "images": [
+        "69",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "268": {
+    "inputs": {
+      "image": "01_1_front.jpg",
+      "choose file to upload": "image"
+    },
+    "class_type": "LoadImage"
+  },
+  "270": {
+    "inputs": {
+      "main_prompt": [
+        "3",
+        0
+      ],
+      "secondary_prompt": [
+        "5",
+        0
+      ],
+      "style_prompt": [
+        "6",
+        0
+      ],
+      "negative_prompt": [
+        "7",
+        0
+      ],
+      "negative_style": [
+        "8",
+        0
+      ],
+      "inputs": [
+        "136",
+        0
+      ],
+      "image": [
+        "268",
+        0
+      ],
+      "mask": [
+        "463",
+        0
+      ]
+    },
+    "class_type": "SeargeInput1"
+  },
+  "272": {
+    "inputs": {
+      "hires_fix": "disabled",
+      "hrf_steps": 25,
+      "hrf_denoise": 0.25,
+      "hrf_upscale_factor": 1.5,
+      "hrf_intensity": "hard",
+      "hrf_seed_offset": "distinct",
+      "hrf_smoothness": 0.49999999999999994,
+      "inputs": [
+        "150",
+        0
+      ]
+    },
+    "class_type": "SeargeInput6"
+  },
+  "281": {
+    "inputs": {
+      "upscale_method": "bicubic",
+      "width": [
+        "290",
+        2
+      ],
+      "height": [
+        "290",
+        3
+      ],
+      "crop": "center",
+      "image": [
+        "293",
+        6
+      ]
+    },
+    "class_type": "ImageScale"
+  },
+  "282": {
+    "inputs": {
+      "pixels": [
+        "281",
+        0
+      ],
+      "vae": [
+        "351",
+        0
+      ]
+    },
+    "class_type": "VAEEncode"
+  },
+  "283": {
+    "inputs": {
+      "samples": [
+        "282",
+        0
+      ],
+      "mask": [
+        "288",
+        0
+      ]
+    },
+    "class_type": "SetLatentNoiseMask"
+  },
+  "284": {
+    "inputs": {
+      "upscale_method": "bicubic",
+      "width": [
+        "290",
+        2
+      ],
+      "height": [
+        "290",
+        3
+      ],
+      "crop": "center",
+      "image": [
+        "286",
+        0
+      ]
+    },
+    "class_type": "ImageScale"
+  },
+  "285": {
+    "inputs": {
+      "channel": "green",
+      "image": [
+        "284",
+        0
+      ]
+    },
+    "class_type": "ImageToMask"
+  },
+  "286": {
+    "inputs": {
+      "mask": [
+        "293",
+        7
+      ]
+    },
+    "class_type": "MaskToImage"
+  },
+  "288": {
+    "inputs": {
+      "left": 4,
+      "top": 4,
+      "right": 4,
+      "bottom": 4,
+      "mask": [
+        "285",
+        0
+      ]
+    },
+    "class_type": "FeatherMask"
+  },
+  "290": {
+    "inputs": {
+      "parameters": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput2"
+  },
+  "293": {
+    "inputs": {
+      "parameters": [
+        "290",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput1"
+  },
+  "313": {
+    "inputs": {
+      "conditioning_to": [
+        "40",
+        0
+      ],
+      "conditioning_from": [
+        "41",
+        0
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "318": {
+    "inputs": {
+      "conditioning_to": [
+        "40",
+        1
+      ],
+      "conditioning_from": [
+        "41",
+        1
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "319": {
+    "inputs": {
+      "conditioning_to": [
+        "40",
+        2
+      ],
+      "conditioning_from": [
+        "42",
+        0
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "320": {
+    "inputs": {
+      "conditioning_to": [
+        "40",
+        3
+      ],
+      "conditioning_from": [
+        "42",
+        1
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "321": {
+    "inputs": {
+      "conditioning_to": [
+        "41",
+        0
+      ],
+      "conditioning_from": [
+        "40",
+        0
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "322": {
+    "inputs": {
+      "conditioning_to": [
+        "41",
+        1
+      ],
+      "conditioning_from": [
+        "40",
+        1
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "323": {
+    "inputs": {
+      "conditioning_to": [
+        "42",
+        0
+      ],
+      "conditioning_from": [
+        "40",
+        2
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "324": {
+    "inputs": {
+      "conditioning_to": [
+        "42",
+        1
+      ],
+      "conditioning_from": [
+        "40",
+        3
+      ]
+    },
+    "class_type": "ConditioningConcat"
+  },
+  "334": {
+    "inputs": {
+      "parameters": [
+        "145",
+        0
+      ]
+    },
+    "class_type": "SeargeGenerated1"
+  },
+  "335": {
+    "inputs": {
+      "input_selector": [
+        "340",
+        1
+      ],
+      "input0": [
+        "44",
+        0
+      ],
+      "input1": [
+        "282",
+        0
+      ],
+      "input2": [
+        "283",
+        0
+      ]
+    },
+    "class_type": "SeargeLatentMuxer3"
+  },
+  "336": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "40",
+        1
+      ],
+      "input1": [
+        "318",
+        0
+      ],
+      "input2": [
+        "322",
+        0
+      ],
+      "input3": [
+        "76",
+        0
+      ],
+      "input4": [
+        "56",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "337": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "40",
+        0
+      ],
+      "input1": [
+        "313",
+        0
+      ],
+      "input2": [
+        "321",
+        0
+      ],
+      "input3": [
+        "75",
+        0
+      ],
+      "input4": [
+        "55",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "338": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "40",
+        2
+      ],
+      "input1": [
+        "319",
+        0
+      ],
+      "input2": [
+        "323",
+        0
+      ],
+      "input3": [
+        "77",
+        0
+      ],
+      "input4": [
+        "57",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "339": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "40",
+        3
+      ],
+      "input1": [
+        "320",
+        0
+      ],
+      "input2": [
+        "324",
+        0
+      ],
+      "input3": [
+        "78",
+        0
+      ],
+      "input4": [
+        "58",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "340": {
+    "inputs": {
+      "parameters": [
+        "359",
+        0
+      ]
+    },
+    "class_type": "SeargeGenerated1"
+  },
+  "349": {
+    "inputs": {
+      "model_names": [
+        "154",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput4"
+  },
+  "350": {
+    "inputs": {
+      "ckpt_name": [
+        "349",
+        1
+      ]
+    },
+    "class_type": "SeargeCheckpointLoader"
+  },
+  "351": {
+    "inputs": {
+      "vae_name": [
+        "349",
+        3
+      ]
+    },
+    "class_type": "SeargeVAELoader"
+  },
+  "352": {
+    "inputs": {
+      "upscaler_name": [
+        "349",
+        4
+      ]
+    },
+    "class_type": "SeargeUpscaleModelLoader"
+  },
+  "353": {
+    "inputs": {
+      "strength_model": [
+        "152",
+        1
+      ],
+      "strength_clip": [
+        "152",
+        1
+      ],
+      "model": [
+        "350",
+        0
+      ],
+      "clip": [
+        "350",
+        1
+      ],
+      "lora_name": [
+        "349",
+        6
+      ]
+    },
+    "class_type": "SeargeLoraLoader"
+  },
+  "355": {
+    "inputs": {
+      "ckpt_name": [
+        "349",
+        2
+      ]
+    },
+    "class_type": "SeargeCheckpointLoader"
+  },
+  "356": {
+    "inputs": {
+      "upscaler_name": [
+        "349",
+        5
+      ]
+    },
+    "class_type": "SeargeUpscaleModelLoader"
+  },
+  "357": {
+    "inputs": {
+      "active_style_name": "test",
+      "style_definitions": "[unfinished work in progress]",
+      "inputs": [
+        "270",
+        0
+      ]
+    },
+    "class_type": "SeargeStylePreprocessor"
+  },
+  "358": {
+    "inputs": {
+      "noise_seed": [
+        "359",
+        1
+      ],
+      "steps": [
+        "359",
+        4
+      ],
+      "cfg": [
+        "359",
+        5
+      ],
+      "base_ratio": [
+        "369",
+        2
+      ],
+      "denoise": [
+        "369",
+        1
+      ],
+      "refiner_prep_steps": [
+        "369",
+        5
+      ],
+      "noise_offset": [
+        "369",
+        4
+      ],
+      "refiner_strength": [
+        "369",
+        3
+      ],
+      "base_model": [
+        "353",
+        0
+      ],
+      "base_positive": [
+        "454",
+        0
+      ],
+      "base_negative": [
+        "455",
+        0
+      ],
+      "refiner_model": [
+        "355",
+        0
+      ],
+      "refiner_positive": [
+        "456",
+        0
+      ],
+      "refiner_negative": [
+        "457",
+        0
+      ],
+      "latent_image": [
+        "335",
+        0
+      ],
+      "sampler_name": [
+        "359",
+        6
+      ],
+      "scheduler": [
+        "359",
+        7
+      ]
+    },
+    "class_type": "SeargeSDXLSampler2"
+  },
+  "359": {
+    "inputs": {
+      "parameters": [
+        "369",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput2"
+  },
+  "360": {
+    "inputs": {
+      "filename_prefix": "SeargeSDXL-out-%date%/generated/gen",
+      "images": [
+        "46",
+        0
+      ],
+      "state": [
+        "359",
+        8
+      ],
+      "save_to": [
+        "359",
+        9
+      ]
+    },
+    "class_type": "SeargeImageSave"
+  },
+  "361": {
+    "inputs": {
+      "filename_prefix": "SeargeSDXL-out-%date%/hires/hrf",
+      "images": [
+        "363",
+        0
+      ],
+      "state": [
+        "368",
+        6
+      ],
+      "save_to": [
+        "362",
+        9
+      ]
+    },
+    "class_type": "SeargeImageSave"
+  },
+  "362": {
+    "inputs": {
+      "parameters": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput2"
+  },
+  "363": {
+    "inputs": {
+      "noise_seed": [
+        "368",
+        5
+      ],
+      "steps": [
+        "368",
+        1
+      ],
+      "cfg": [
+        "362",
+        5
+      ],
+      "base_ratio": [
+        "367",
+        2
+      ],
+      "denoise": [
+        "368",
+        2
+      ],
+      "scaled_width": [
+        "106",
+        0
+      ],
+      "scaled_height": [
+        "107",
+        0
+      ],
+      "noise_offset": [
+        "368",
+        4
+      ],
+      "refiner_strength": [
+        "367",
+        3
+      ],
+      "softness": [
+        "368",
+        7
+      ],
+      "base_model": [
+        "353",
+        0
+      ],
+      "base_positive": [
+        "454",
+        0
+      ],
+      "base_negative": [
+        "455",
+        0
+      ],
+      "refiner_model": [
+        "355",
+        0
+      ],
+      "refiner_positive": [
+        "456",
+        0
+      ],
+      "refiner_negative": [
+        "457",
+        0
+      ],
+      "image": [
+        "46",
+        0
+      ],
+      "vae": [
+        "351",
+        0
+      ],
+      "sampler_name": [
+        "362",
+        6
+      ],
+      "scheduler": [
+        "362",
+        7
+      ],
+      "upscale_model": [
+        "356",
+        0
+      ]
+    },
+    "class_type": "SeargeSDXLImage2ImageSampler2"
+  },
+  "364": {
+    "inputs": {
+      "filename_prefix": "SeargeSDXL-out-%date%/upscaled/up",
+      "images": [
+        "69",
+        0
+      ],
+      "state": [
+        "366",
+        8
+      ],
+      "save_to": [
+        "365",
+        9
+      ]
+    },
+    "class_type": "SeargeImageSave"
+  },
+  "365": {
+    "inputs": {
+      "parameters": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput2"
+  },
+  "366": {
+    "inputs": {
+      "parameters": [
+        "365",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput3"
+  },
+  "367": {
+    "inputs": {
+      "parameters": [
+        "362",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput3"
+  },
+  "368": {
+    "inputs": {
+      "parameters": [
+        "367",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput6"
+  },
+  "369": {
+    "inputs": {
+      "parameters": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput3"
+  },
+  "370": {
+    "inputs": {
+      "parameters": [
+        "152",
+        0
+      ]
+    },
+    "class_type": "SeargeOutput2"
+  },
+  "375": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "322",
+        0
+      ],
+      "input1": [
+        "318",
+        0
+      ],
+      "input2": [
+        "41",
+        1
+      ],
+      "input3": [
+        "56",
+        0
+      ],
+      "input4": [
+        "76",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "376": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "313",
+        0
+      ],
+      "input1": [
+        "321",
+        0
+      ],
+      "input2": [
+        "41",
+        0
+      ],
+      "input3": [
+        "75",
+        0
+      ],
+      "input4": [
+        "55",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "377": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "319",
+        0
+      ],
+      "input1": [
+        "323",
+        0
+      ],
+      "input2": [
+        "42",
+        0
+      ],
+      "input3": [
+        "77",
+        0
+      ],
+      "input4": [
+        "57",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "378": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        2
+      ],
+      "input0": [
+        "324",
+        0
+      ],
+      "input1": [
+        "320",
+        0
+      ],
+      "input2": [
+        "42",
+        1
+      ],
+      "input3": [
+        "58",
+        0
+      ],
+      "input4": [
+        "78",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer5"
+  },
+  "439": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        3
+      ],
+      "input0": [
+        "337",
+        0
+      ],
+      "input1": [
+        "376",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "440": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        3
+      ],
+      "input0": [
+        "336",
+        0
+      ],
+      "input1": [
+        "375",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "441": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        3
+      ],
+      "input0": [
+        "338",
+        0
+      ],
+      "input1": [
+        "377",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "442": {
+    "inputs": {
+      "input_selector": [
+        "334",
+        3
+      ],
+      "input0": [
+        "339",
+        0
+      ],
+      "input1": [
+        "378",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "454": {
+    "inputs": {
+      "input_selector": [
+        "458",
+        0
+      ],
+      "input0": [
+        "439",
+        0
+      ],
+      "input1": [
+        "440",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "455": {
+    "inputs": {
+      "input_selector": [
+        "458",
+        0
+      ],
+      "input0": [
+        "440",
+        0
+      ],
+      "input1": [
+        "439",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "456": {
+    "inputs": {
+      "input_selector": [
+        "458",
+        0
+      ],
+      "input0": [
+        "441",
+        0
+      ],
+      "input1": [
+        "442",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "457": {
+    "inputs": {
+      "input_selector": [
+        "458",
+        0
+      ],
+      "input0": [
+        "442",
+        0
+      ],
+      "input1": [
+        "441",
+        0
+      ]
+    },
+    "class_type": "SeargeConditioningMuxer2"
+  },
+  "458": {
+    "inputs": {
+      "value": 0
+    },
+    "class_type": "SeargeIntegerConstant"
+  },
+  "461": {
+    "inputs": {
+      "text": "clothing",
+      "blur": 0.40000000000000013,
+      "threshold": 0.55,
+      "dilation_factor": 1,
+      "image": [
+        "268",
+        0
+      ]
+    },
+    "class_type": "CLIPSeg"
+  },
+  "462": {
+    "inputs": {
+      "images": [
+        "461",
+        2
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "463": {
+    "inputs": {
+      "mask": [
+        "461",
+        0
+      ]
+    },
+    "class_type": "InvertMask"
+  }
+}

@@ -1,0 +1,12 @@
+[general]
+caption_extension = '.txt'
+keep_tokens = 1
+
+# This is a DreamBooth-style dataset
+[[datasets]]
+resolution = 1024
+batch_size = 1
+
+  [[datasets.subsets]]
+  image_dir = '/home/luca/virtual-tryon-diffusion/embedding_datasets/example_embedding_name/img/processed'
+
